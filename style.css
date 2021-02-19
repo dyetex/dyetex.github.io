@@ -257,7 +257,7 @@ form textarea {
   resize: vertical; }
 form input[type="submit"], form button, form input[type="reset"] {
   border: none;
-  background-color: #69acc7; }
+  background-color: #001159; }
 
 /*
  * Reusable Components Style
@@ -276,7 +276,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   .button img, form input[type="submit"] img, form button img, form input[type="reset"] img {
     margin-right: 10px; }
   .button:hover, form input[type="submit"]:hover, form button:hover, form input[type="reset"]:hover {
-    box-shadow: inset 0 0 100px #69acc7;
+    box-shadow: inset 0 0 100px #001159;
     color: white; }
   .button.white, form input.white[type="submit"], form button.white, form input.white[type="reset"] {
     background: white; }
@@ -1163,7 +1163,63 @@ form input[type="submit"], form button, form input[type="reset"] {
   .branding .logo-type .site-description {
     font-size: 12px;
     font-size: 0.8em; }
-
+  .sub-navigation:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; }
+  .sub-navigation .menu-toggle {
+    display: inline-block;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-size: 1.3333333333em;
+    color: white;
+    outline: none;
+    display: none;
+    padding: 20px; }
+    .sub-navigation .menu-toggle:hover, .sub-navigation .menu-toggle:active {
+      color: #001159; }
+    @media screen and (max-width: 990px) {
+      .sub-navigation .menu-toggle {
+        display: block; } }
+  .sub-navigation .menu {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    }
+    .sub-navigation .menu:after {
+      content: " ";
+      clear: both;
+      display: block;
+      overflow: hidden;
+      }
+    @media screen and (max-width: 990px) {
+      .sub-navigation .menu {
+        display: none; } }
+    .sub-navigation .menu .menu-item {
+      float: left; }
+      .sub-navigation .menu .menu-item.home a {
+        text-align: center;
+         }
+      .sub-navigation .menu .menu-item a {
+        font-size: 13px;
+        font-size: 0.8666666667em;
+        font-weight: 400;
+        padding: 32px 30px;
+        display: block;
+        color: #808080;
+        -webkit-transition: .3s ease;
+                transition: .3s ease;
+        line-height: normal; }
+      .sub-navigation .menu .menu-item.current-menu-item a, .sub-navigation .menu .menu-item:hover a {
+        color: #001159;
+         }
+#black{
+  color: #001159;
+}
+  
 .main-navigation {
   *zoom: 1;
   float: right; }
@@ -1178,14 +1234,14 @@ form input[type="submit"], form button, form input[type="reset"] {
     vertical-align: middle;
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: 25px;
     font-size: 1.3333333333em;
-    color: #8e9ca5;
+    color: #001159;
     outline: none;
     display: none;
     padding: 20px; }
     .main-navigation .menu-toggle:hover, .main-navigation .menu-toggle:active {
-      color: #69acc7; }
+      color: #001159; }
     @media screen and (max-width: 990px) {
       .main-navigation .menu-toggle {
         display: block; } }
@@ -1214,14 +1270,14 @@ form input[type="submit"], form button, form input[type="reset"] {
         font-weight: 400;
         padding: 32px 20px;
         display: block;
-        color: #8e9ca5;
+        color: #808080;
         -webkit-transition: .3s ease;
                 transition: .3s ease;
         border-bottom: 2px solid transparent;
         line-height: normal; }
       .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
-        color: #69acc7;
-        border-bottom: 2px solid #69acc7; }
+        color: #001159;
+         }
 
 .mobile-navigation {
   padding: 30px;
@@ -1321,7 +1377,7 @@ form input[type="submit"], form button, form input[type="reset"] {
           top: 0;
           bottom: 0;
           margin: auto;
-          background: #69acc7;
+          background: #001159;
           border-radius: 50%;
           opacity: 0;
           -webkit-transition: .3s ease;
@@ -1438,14 +1494,14 @@ form input[type="submit"], form button, form input[type="reset"] {
       max-width: 100%;
       padding: 20px 100px 20px 20px; }
       .subscribe-form form input[type="text"]:hover, .subscribe-form form input[type="text"]:focus, .subscribe-form form input[type="email"]:hover, .subscribe-form form input[type="email"]:focus {
-        border-color: #69acc7; }
+        border-color: #001159; }
     .subscribe-form form input[type="submit"] {
       position: absolute;
       top: 0px;
       bottom: 0px;
       right: 0px;
-      background: -webkit-linear-gradient(#69c7b7, #69acc6);
-      background: linear-gradient(#69c7b7, #69acc6);
+      background: -webkit-linear-gradient(#001159, #001159);
+      background: linear-gradient(#001159, #001159);
       color: white;
       box-shadow: none;
       border-top-left-radius: 0;
@@ -1454,7 +1510,7 @@ form input[type="submit"], form button, form input[type="reset"] {
       -webkit-transition: .3s ease;
               transition: .3s ease; }
       .subscribe-form form input[type="submit"]:hover {
-        box-shadow: inset 0 0 0 200px #69c7b7; }
+        box-shadow: inset 0 0 0 200px #001159; }
 
 .team {
   text-align: center;
@@ -1608,10 +1664,9 @@ ol.circle {
         .project-list .project:nth-child(2n+1) {
           clear: none; } }
     .project-list .project .project-content {
-      border: 1px solid #dde7ea;
       border-radius: 5px;
       padding: 20px;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+      }
     .project-list .project .project-image {
       margin-bottom: 20px; }
       .project-list .project .project-image img {
@@ -1637,7 +1692,7 @@ figure {
   margin-bottom: 30px; }
   .project-info li {
     padding: 10px 0;
-    border-bottom: 1px solid #edf2f4; }
+    }
     .project-info li:last-child {
       border-bottom: none; }
 
@@ -1658,8 +1713,8 @@ figure {
 .contact-form textarea {
   min-height: 150px; }
 .contact-form input[type="submit"] {
-  background: -webkit-linear-gradient(#69c7b7, #69acc6);
-  background: linear-gradient(#69c7b7, #69acc6);
+  background: -webkit-linear-gradient(#001159, #001159);
+  background: linear-gradient(#001159, #001159);
   color: white; }
 .contact-form .text-right {
   text-align: right; }
@@ -1669,7 +1724,7 @@ figure {
  */
 .site-footer {
   padding: 50px 0;
-  background-color: rgb(7, 89, 128);
+  background-color: rgb(0, 17, 89);
   color: #c6dfea;
 }
 
