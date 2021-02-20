@@ -1163,6 +1163,9 @@ form input[type="submit"], form button, form input[type="reset"] {
   .branding .logo-type .site-description {
     font-size: 12px;
     font-size: 0.8em; }
+  .sub-navigation {
+  *zoom: 1;
+  float: center; }
   .sub-navigation:after {
     content: " ";
     clear: both;
