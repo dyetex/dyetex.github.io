@@ -1163,64 +1163,25 @@ form input[type="submit"], form button, form input[type="reset"] {
   .branding .logo-type .site-description {
     font-size: 12px;
     font-size: 0.8em; }
-.sub-navigation {
-   float: center;
-   }
-  .sub-navigation:after {
-    content: " ";
-    clear: both;
-    display: block;
-    overflow: hidden;
-    height: 0; }
-  .sub-navigation .menu-toggle {
+.sub{
     display: inline-block;
     vertical-align: middle;
-    background: none;
-    border: none;
-    font-size: 25px;
+    font-size: 30px;
+    font-size: 1.3333333333em;
+    color: #808080;
+    padding: 20px; 
+
+}
+.subactive{
+	display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
     font-size: 1.3333333333em;
     color: #001159;
-    outline: none;
-    display: none;
-    padding: 20px; }
-    .sub-navigation .menu-toggle:hover, .sub-navigation .menu-toggle:active {
-      color: #001159; }
-    @media screen and (max-width: 990px) {
-      .sub-navigation .menu-toggle {
-        display: block; } }
-  .sub-navigation .menu {
-    list-style: none;
-    display: inline-block;
-    vertical-align: middle;
-    *zoom: 1; }
-    .sub-navigation .menu:after {
-      content: " ";
-      clear: both;
-      display: block;
-      overflow: hidden;
-      height: 0; }
-    @media screen and (max-width: 990px) {
-      .sub-navigation .menu {
-        display: none; } }
-    .sub-navigation .menu .menu-item {
-      float: left; }
-      .sub-navigation .menu .menu-item.home a {
-        padding: 32px 30px 30px; }
-      .sub-navigation .menu .menu-item a {
-        font-size: 13px;
-        font-size: 0.8666666667em;
-        text-transform: uppercase;
-        font-weight: 400;
-        padding: 32px 20px;
-        display: block;
-        color: #808080;
-        -webkit-transition: .3s ease;
-                transition: .3s ease;
-        border-bottom: 2px solid transparent;
-        line-height: normal; }
-      .sub-navigation .menu .menu-item.current-menu-item a, .sub-navigation .menu .menu-item:hover a {
-        color: #001159;
-         } 
+    padding: 20px;
+     }
+
+
 #black{
   color: #001159;
 }
