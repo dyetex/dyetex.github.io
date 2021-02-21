@@ -43,7 +43,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif; }
+  font-family: open Sans; }
 
 body {
   margin: 0; }
@@ -217,7 +217,7 @@ html {
 
 body {
   color: #8e9ca5;
-  font-family: "Roboto", "Open Sans", sans-serif;
+  font-family: Open Sans, ;
   font-weight: 300;
   line-height: 1.5; }
 
