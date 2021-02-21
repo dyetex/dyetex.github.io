@@ -1166,7 +1166,7 @@ form input[type="submit"], form button, form input[type="reset"] {
 .sub{
     display: inline-block;
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 32px;
     font-size: 1.3333333333em;
     color: #808080;
     padding: 20px; 
@@ -1175,7 +1175,7 @@ form input[type="submit"], form button, form input[type="reset"] {
 .subactive{
 	display: inline-block;
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 32px;
     font-size: 1.3333333333em;
     color: #001159;
     padding: 20px;
