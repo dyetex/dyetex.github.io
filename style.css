@@ -1209,7 +1209,7 @@ form input[type="submit"], form button, form input[type="reset"] {
     .main-navigation .menu-toggle:hover, .main-navigation .menu-toggle:active {
       color: #001159; }
     @media screen and (max-width: 990px) {
-        .main-navigation .menu-toggle {
+      .main-navigation .menu-toggle {
         display: block; } }
   .main-navigation .menu {
     list-style: none;
