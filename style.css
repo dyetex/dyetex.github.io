@@ -43,7 +43,7 @@ button,
 input,
 select,
 textarea {
-  font-family: Opensans-regular; }
+  font-family: sans-serif; }
 
 body {
   margin: 0; }
@@ -97,7 +97,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Opensans-regular;
+  font-family: monospace, serif;
   font-size: 1em; }
 
 pre {
@@ -152,7 +152,7 @@ button,
 input,
 select,
 textarea {
-  font-family: Opensans-regular;
+  font-family: inherit;
   font-size: 100%;
   margin: 0;
   vertical-align: baseline; }
@@ -217,7 +217,7 @@ html {
 
 body {
   color: #8e9ca5;
-  font-family: Opensans-regular;
+  font-family: "Roboto", "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.5; }
 
@@ -1533,7 +1533,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   position: relative; }
   .checked-box:before {
     content: "\f00c";
-    font-family: Opensans-regular;
+    font-family: "FontAwesome";
     width: 30px;
     height: 30px;
     border-radius: 50%;
