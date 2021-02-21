@@ -43,7 +43,7 @@ button,
 input,
 select,
 textarea {
-  font-family: open Sans; }
+  font-family: Open Sans; }
 
 body {
   margin: 0; }
@@ -1530,7 +1530,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   position: relative; }
   .checked-box:before {
     content: "\f00c";
-    font-family: "FontAwesome";
+    font-family: "Open Sans";
     width: 30px;
     height: 30px;
     border-radius: 50%;
