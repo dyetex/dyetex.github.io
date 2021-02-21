@@ -1276,7 +1276,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   display: none; }
   @media screen and (min-width: 991px) {
     .mobile-navigation {
-      display: none !important; } }
+     } }
   .mobile-navigation .menu {
     border-radius: 5px;
     background: #edf2f4;
