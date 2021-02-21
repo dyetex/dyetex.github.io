@@ -1209,6 +1209,9 @@ form input[type="submit"], form button, form input[type="reset"] {
     .main-navigation .menu-toggle:hover, .main-navigation .menu-toggle:active {
       color: #001159; }
     @media screen and (max-width: 990px) {
+    	#font1{
+    		font-family: Opensans-regular;
+    	}
       .main-navigation .menu-toggle {
         display: block; } }
   .main-navigation .menu {
@@ -1276,7 +1279,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   display: none; }
   @media screen and (min-width: 991px) {
     .mobile-navigation {
-     } }
+      display: none !important; } }
   .mobile-navigation .menu {
     border-radius: 5px;
     background: #edf2f4;
