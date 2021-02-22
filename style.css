@@ -101,8 +101,9 @@ samp {
   font-size: 1em; }
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Regular.woff2') format('woff2'),
-        url('OpenSans-Regular.woff') format('woff');
+    src: url('./fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('./fonts/OpenSans-Regular.woff') format('woff');
+    src: url('./fonts/OpenSans-Regular.eot');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
