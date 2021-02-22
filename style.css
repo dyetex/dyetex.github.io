@@ -97,9 +97,9 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, serif;
+  font-family: Open Sans,monospace, serif;
   font-size: 1em; }
-@media only screen and (min-width: 980px) {  
+@media only screen and (max-width: 768px) {  
    @font-face {
     font-family: 'Open Sans';
     src: url('./fonts/OpenSans-Regular.eot');
@@ -314,6 +314,15 @@ form input[type="submit"], form button, form input[type="reset"] {
   @media (min-width: 1200px) {
     .container {
       width: 1170px; } }
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Regular.eot');
+    src: url('./fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('./fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 .container-fluid {
   margin-right: auto;
