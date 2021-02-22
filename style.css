@@ -102,9 +102,9 @@ samp {
 @media only screen and (max-width: 768px) {  
    @font-face {
     font-family: 'Open Sans';
-    src: url('./fonts/OpenSans-Regular.eot');
-    src: url('./fonts/OpenSans-Regular.woff2') format('woff2'),
-         url('./fonts/OpenSans-Regular.woff') format('woff');
+    src: url('fonts/OpenSans-Regular.eot');
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -316,9 +316,9 @@ form input[type="submit"], form button, form input[type="reset"] {
       width: 1170px; } }
 @font-face {
     font-family: 'Open Sans';
-    src: url('./fonts/OpenSans-Regular.eot');
-    src: url('./fonts/OpenSans-Regular.woff2') format('woff2'),
-         url('./fonts/OpenSans-Regular.woff') format('woff');
+    src: url('fonts/OpenSans-Regular.eot');
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
