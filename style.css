@@ -306,7 +306,8 @@ form input[type="submit"], form button, form input[type="reset"] {
  
     src: url('../dyetex.github.io/fonts/OpenSans-Regular.eot');
     src: url('../dyetex.github.io/fonts/OpenSans-Regular.woff2') format('woff2'),
-         url('../dyetex.github.io/fonts/OpenSans-Regular.woff') format('woff');
+         url('../dyetex.github.io/fonts/OpenSans-Regular.woff') format('woff'),
+         url('../dyetex.github.io/fonts/OpenSans-Regular.ttf') format('ttf');
     src: url('../dyetex.github.io/fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');     
 }
 
