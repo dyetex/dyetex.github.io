@@ -99,7 +99,7 @@ pre,
 samp {
   font-family: monospace, serif;
   font-size: 1em; }
-@media only screen and (min-width: 990px) {  
+@media only screen and (min-width: 980px) {  
    @font-face {
     font-family: 'Open Sans';
     src: url('./fonts/OpenSans-Regular.woff2') format('woff2'),
