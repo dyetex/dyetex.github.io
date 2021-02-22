@@ -99,7 +99,8 @@ pre,
 samp {
   font-family: monospace, serif;
   font-size: 1em; }
-@font-face {
+@media only screen and (min-width: 990px) {  
+   @font-face {
     font-family: 'Open Sans';
     src: url('./fonts/OpenSans-Regular.woff2') format('woff2'),
         url('./fonts/OpenSans-Regular.woff') format('woff');
@@ -107,7 +108,8 @@ samp {
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
+}}
+
 
 
 pre {
