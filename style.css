@@ -101,7 +101,7 @@ samp {
   font-size: 1em; }
 @media only screen and (min-width: 991px) {  
    @font-face {
-    font-family: 'Open Sans';
+    font-family: 'OpenSans-Regular';
     src: url('fonts/OpenSans-Regular.eot');
     src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
          url('fonts/OpenSans-Regular.woff') format('woff');
@@ -316,7 +316,7 @@ form input[type="submit"], form button, form input[type="reset"] {
     .container {
       width: 1170px; } }
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'OpenSans-Regular';
     src: url('fonts/OpenSans-Regular.eot');
     src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
          url('fonts/OpenSans-Regular.woff') format('woff');
